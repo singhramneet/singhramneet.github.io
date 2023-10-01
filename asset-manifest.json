@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.27b28fed.css",
+    "main.js": "/static/js/main.a3d041fb.js",
+    "static/media/ramneet-profile.jpg": "/static/media/ramneet-profile.9a2c59d80713f327eed6.jpg",
+    "index.html": "/index.html",
+    "main.27b28fed.css.map": "/static/css/main.27b28fed.css.map",
+    "main.a3d041fb.js.map": "/static/js/main.a3d041fb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27b28fed.css",
+    "static/js/main.a3d041fb.js"
+  ]
+}
