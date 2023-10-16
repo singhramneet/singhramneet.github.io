@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.27b28fed.css",
-    "main.js": "/static/js/main.a3d041fb.js",
+    "main.css": "/static/css/main.377b3e63.css",
+    "main.js": "/static/js/main.f3adccb9.js",
+    "static/media/yarn.jpg": "/static/media/yarn.4b6e31816991405dfcb1.jpg",
+    "static/media/WebSupport.jpg": "/static/media/WebSupport.4b62266417720630a12a.jpg",
     "static/media/ramneet-profile.jpg": "/static/media/ramneet-profile.9a2c59d80713f327eed6.jpg",
     "index.html": "/index.html",
-    "main.27b28fed.css.map": "/static/css/main.27b28fed.css.map",
-    "main.a3d041fb.js.map": "/static/js/main.a3d041fb.js.map"
+    "main.377b3e63.css.map": "/static/css/main.377b3e63.css.map",
+    "main.f3adccb9.js.map": "/static/js/main.f3adccb9.js.map"
   },
   "entrypoints": [
-    "static/css/main.27b28fed.css",
-    "static/js/main.a3d041fb.js"
+    "static/css/main.377b3e63.css",
+    "static/js/main.f3adccb9.js"
   ]
 }
