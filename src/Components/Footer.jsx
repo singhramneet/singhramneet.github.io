@@ -1,44 +1,47 @@
 import React from 'react';
-import { Container, Row, Col, Form, Button, ListGroup } from 'react-bootstrap';
+import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 
 const Footer = () => {
     return (
-        <footer style={{ backgroundColor: '#f8f9fa', padding: '20px 0' }} className='bg-dark' data-bs-theme="dark">
-            <Container>
+        <Container fluid className='footer p-5'>
+
+            <Form action="https://formsubmit.co/singhramneet2621@gmail.com" method="POST">
                 <Row>
-                    <Col md={6}>
+                    <Col>
                         <h5>Contact Me</h5>
-                        <Form>
-                            <Form.Group controlId="formBasicEmail" className="mb-3">
+                        <Row>
+                            <input type="hidden" name="_next" value="https://ramneetsingh.dev" />
+                            <Form.Group as={Col} controlId="formBasicEmail" className="mb-3">
+                                <Form.Label>Full Name</Form.Label>
+                                <Form.Control type="text" name="name" placeholder="Full Name" />
+                            </Form.Group>
+                            <Form.Group as={Col} controlId="formBasicEmail" className="mb-3">
                                 <Form.Label>Email address</Form.Label>
-                                <Form.Control type="email" placeholder="Enter email" />
+                                <Form.Control type="email" name="email" placeholder="Email Address" />
                             </Form.Group>
                             <Form.Group controlId="formBasicMessage" className="mb-3">
                                 <Form.Label>Message</Form.Label>
-                                <Form.Control as="textarea" rows={3} />
+                                <Form.Control as="textarea" rows={3} placeholder="Your Message" name="message" />
                             </Form.Group>
-                            <Button variant="primary" type="submit">
-                                Submit
-                            </Button>
-                        </Form>
+
+                        </Row>
+                        <Button variant="outline-light" type="submit">
+                            Submit
+                        </Button>
+
                     </Col>
-                    <Col md={6}>
-                        <h5>Useful Links</h5>
-                        <ListGroup>
-                            <ListGroup.Item><a href="/about">About Us</a></ListGroup.Item>
-                            <ListGroup.Item><a href="/services">Services</a></ListGroup.Item>
-                            <ListGroup.Item><a href="/privacy">Privacy Policy</a></ListGroup.Item>
-                            <ListGroup.Item><a href="/terms">Terms & Conditions</a></ListGroup.Item>
-                        </ListGroup>
-                    </Col>
+
+
                 </Row>
-                <Row className="mt-4">
-                    <Col className="text-center">
-                        <p>&copy; 2023 Ramneet Singh. All rights reserved.</p>
-                    </Col>
-                </Row>
-            </Container>
-        </footer>
+
+            </Form>
+            <hr className="footer-hr" />
+            <Row className="mt-4">
+                <Col className="text-center">
+                    <p>&copy; 2023 Ramneet Singh.</p>
+                </Col>
+            </Row>
+        </Container>
     );
 };
 

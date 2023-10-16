@@ -1,10 +1,7 @@
-import Card from 'react-bootstrap/Card';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
-import Container from 'react-bootstrap/Container';
-import Button from 'react-bootstrap/Button';
+import { Card, Col, Row, Container, Button } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 import SecttionHeadingHr from './SectionHeadingHr';
 
 
@@ -12,11 +9,11 @@ function Projects() {
 
     return (
         <Container fluid="md page-section" id="projects">
-            <SecttionHeadingHr sectionHeading="Projects"/>
-            <Row xs={1} md={3} className="g-4 m-4">
+            <SecttionHeadingHr sectionHeading="Projects" />
+            <Row xs={1} md={2} className="g-4 m-4 align-items-center" >
                 <Col>
                     <Card>
-                        <Card.Img variant="top" src="path_to_project_image.jpg" /> {/* Replace with an image of your project */}
+                        <Card.Img className="project-image" variant="top" src={require("./WebSupport.jpg")} />
                         <Card.Body>
                             <Card.Title>WebSupport</Card.Title>
                             <Card.Text>
@@ -30,30 +27,20 @@ function Projects() {
                         </Card.Footer>
                     </Card>
                 </Col>
-                <Col>
+                <Col className="align-items-center">
                     <Card>
-                        <Card.Img variant="top" src="holder.js/100px160" />
+                        <Card.Img className="project-image" variant="top" src={require("./yarn.jpg")} />
                         <Card.Body>
-                            <Card.Title>Card title</Card.Title>
+                            <Card.Title>HR Cottex</Card.Title>
                             <Card.Text>
-                                This is a longer card with supporting text below as a natural
-                                lead-in to additional content. This content is a little bit
-                                longer.
+                                Developed a responsive website for HR Cottex (yarn manufacturer based in India) to showcase their products and enhance their online presence.
                             </Card.Text>
+                            <h6>Skills Used:</h6>
+                            React.js | HTML/CSS | Bootstrap | Typescript
                         </Card.Body>
-                    </Card>
-                </Col>
-                <Col>
-                    <Card>
-                        <Card.Img variant="top" src="holder.js/100px160" />
-                        <Card.Body>
-                            <Card.Title>Card title</Card.Title>
-                            <Card.Text>
-                                This is a longer card with supporting text below as a natural
-                                lead-in to additional content. This content is a little bit
-                                longer.
-                            </Card.Text>
-                        </Card.Body>
+                        <Card.Footer>
+                            <Button variant="outline-dark" href="https://hrcottex.com"><FontAwesomeIcon icon={faGlobe} size="lg" /></Button>
+                        </Card.Footer>
                     </Card>
                 </Col>
             </Row>

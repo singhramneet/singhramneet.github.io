@@ -12,16 +12,17 @@ function Experience() {
                     Student Assistant - Technology Service Desk <small className="text-muted">August 2022 - Present</small>
                     <ul>
                         <li>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Delivered first-level technical support to faculty, staff, and students through various channels including phone, email, and in-person.                        </li>
+                        <li>
+                        Diagnosed and resolved issues related to desktop/laptop computers, printers, peripheral devices, telephone systems, and networking connectivity.                        </li>
+                        <li>
+                        Supported a broad range of software, including Microsoft Windows, Microsoft Office, MacOS applications, and bespoke internal software.
                         </li>
                         <li>
-                            Volutpat diam ut venenatis tellus in metus vulputate eu scelerisque. Ornare quam viverra orci sagittis eu.
+                        Logged and tracked service incidents (200+ tickets); escalated complex issues to appropriate specialist support groups
                         </li>
                         <li>
-                            Non enim praesent elementum facilisis. Vitae congue eu consequat ac felis donec.
-                        </li>
-                        <li>
-                            Arcu dictum varius duis at consectetur lorem. Sagittis nisl rhoncus mattis rhoncus. Semper feugiat nibh sed pulvinar. Sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae.
+                        Engaged in continuous learning by reviewing technical documentation, replicating issues, and familiarizing with policies and procedures.
                         </li>
                     </ul>
                 </li>

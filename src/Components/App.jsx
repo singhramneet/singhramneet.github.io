@@ -1,6 +1,5 @@
 
 import React from 'react';
-import ReactDOM from 'react-dom/client';
 import MainNavbar from './MainNavbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -10,7 +9,6 @@ import Projects from './Projects';
 import Experience from './Experience';
 import Education from './Education';
 import Footer from './Footer';
-import SecttionHeadingHr from './SectionHeadingHr';
 
 
 

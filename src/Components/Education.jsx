@@ -10,19 +10,19 @@ function Education() {
                 <li>
                     <b>University of Winnipeg</b>
                     <br />
-                    BSC in Applied Computer Science <small className="text-muted">August 2021 - Present {"(Graduating in January 2024)"}</small>
+                    BSC in Applied Computer Science <small className="text-muted">August 2021 - December 2023 {"(Expected)"}</small>
                     <ul>
                         <li>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Gained experience in object oriented programming using Java and Python.
                         </li>
                         <li>
-                            Volutpat diam ut venenatis tellus in metus vulputate eu scelerisque. Ornare quam viverra orci sagittis eu.
+                        Developed a strong understanding of relational databases by writing complex SQL queries.
                         </li>
                         <li>
-                            Non enim praesent elementum facilisis. Vitae congue eu consequat ac felis donec.
+                        Gained hands-on experience working with HTML, CSS, JavaScript, Node.js ,Express.js and mongoDB.
                         </li>
                         <li>
-                            Arcu dictum varius duis at consectetur lorem. Sagittis nisl rhoncus mattis rhoncus. Semper feugiat nibh sed pulvinar. Sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae.
+                        Learned Project management skills including diagraming, agile and documentation.
                         </li>
                     </ul>
                 </li>
